@@ -1,5 +1,12 @@
 #include <stdio.h>
-int main() {
+void draw();
+int main()
+{
+    draw();
+    return 0;
+}
+void draw()
+{
     puts("          |\\ ");
     puts("          | \\ ");
     puts("          |  \\ ");
@@ -7,5 +14,4 @@ int main() {
     puts("     _____|____\\_____ ");
     puts("     \\              / ");
     puts("      \\____________/");
-    return 0;
 }
